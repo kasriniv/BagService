@@ -29,4 +29,12 @@ public class ValidationError  implements java.io.Serializable {
     public void setMessage(java.lang.String message) {
         this.message = message;
     }
+
+	@Override
+	public String toString() {
+		return "ValidationError [message=" + message + "]";
+	}
+    
+    
+    
 }
