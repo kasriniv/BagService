@@ -57,6 +57,40 @@
       <name>moPassenger</name>
       <isModify>false</isModify>
     </fact-data>
+    <fact-data>
+      <type>Passenger</type>
+      <fieldData>
+        <field-data>
+          <name>state</name>
+          <value>AK</value>
+          <nature>1</nature>
+        </field-data>
+        <field-data>
+          <name>shippingCost</name>
+          <value></value>
+          <nature>1</nature>
+        </field-data>
+      </fieldData>
+      <name>akPassenger</name>
+      <isModify>false</isModify>
+    </fact-data>
+    <fact-data>
+      <type>Passenger</type>
+      <fieldData>
+        <field-data>
+          <name>state</name>
+          <value>HI</value>
+          <nature>1</nature>
+        </field-data>
+        <field-data>
+          <name>shippingCost</name>
+          <value></value>
+          <nature>1</nature>
+        </field-data>
+      </fieldData>
+      <name>hiPassenger</name>
+      <isModify>false</isModify>
+    </fact-data>
     <execution-trace/>
     <expect-rule>
       <ruleName>Row 1 US Shipping Cost</ruleName>
@@ -106,6 +140,38 @@
       <ruleName>Row 3 US Shipping Cost</ruleName>
       <expectedCount>1</expectedCount>
     </expect-rule>
+    <expect-rule>
+      <ruleName>Row 4 US Shipping Cost</ruleName>
+      <expectedCount>1</expectedCount>
+    </expect-rule>
+    <expect-rule>
+      <ruleName>Row 5 US Shipping Cost</ruleName>
+      <expectedCount>1</expectedCount>
+    </expect-rule>
+    <expect-fact>
+      <fieldValues>
+        <expect-field>
+          <fieldName>shippingCost</fieldName>
+          <expected>59.99</expected>
+          <operator>==</operator>
+          <nature>1</nature>
+        </expect-field>
+      </fieldValues>
+      <name>akPassenger</name>
+      <anonymous>false</anonymous>
+    </expect-fact>
+    <expect-fact>
+      <fieldValues>
+        <expect-field>
+          <fieldName>shippingCost</fieldName>
+          <expected>69.99</expected>
+          <operator>==</operator>
+          <nature>0</nature>
+        </expect-field>
+      </fieldValues>
+      <name>hiPassenger</name>
+      <anonymous>false</anonymous>
+    </expect-fact>
   </fixtures>
   <rules/>
   <inclusive>false</inclusive>
