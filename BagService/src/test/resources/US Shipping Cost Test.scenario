@@ -14,6 +14,11 @@
           <value>TX</value>
           <nature>1</nature>
         </field-data>
+        <field-data>
+          <name>shippingCost</name>
+          <value></value>
+          <nature>1</nature>
+        </field-data>
       </fieldData>
       <name>txPassenger</name>
       <isModify>false</isModify>
@@ -24,6 +29,11 @@
         <field-data>
           <name>state</name>
           <value>IL</value>
+          <nature>1</nature>
+        </field-data>
+        <field-data>
+          <name>shippingCost</name>
+          <value></value>
           <nature>1</nature>
         </field-data>
       </fieldData>
@@ -38,20 +48,13 @@
           <value>MO</value>
           <nature>1</nature>
         </field-data>
-      </fieldData>
-      <name>moPassenger</name>
-      <isModify>false</isModify>
-    </fact-data>
-    <fact-data>
-      <type>Passenger</type>
-      <fieldData>
         <field-data>
-          <name>state</name>
-          <value>NC</value>
+          <name>shippingCost</name>
+          <value></value>
           <nature>1</nature>
         </field-data>
       </fieldData>
-      <name>xPassenger</name>
+      <name>moPassenger</name>
       <isModify>false</isModify>
     </fact-data>
     <execution-trace/>
