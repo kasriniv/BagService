@@ -1,0 +1,7 @@
+import java.lang.Number;
+
+rule "Apply Surcharge DSL"
+	dialect "mvel"
+	when
+	then
+end
