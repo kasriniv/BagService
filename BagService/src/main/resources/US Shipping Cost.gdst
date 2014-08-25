@@ -1,5 +1,5 @@
 <decision-table52>
-  <tableName>USShippingCost</tableName>
+  <tableName>US Shipping Cost</tableName>
   <rowNumberCol>
     <hideColumn>false</hideColumn>
     <width>-1</width>
@@ -120,7 +120,6 @@
     <list>
       <value>
         <valueNumeric class="int">1</valueNumeric>
-        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
