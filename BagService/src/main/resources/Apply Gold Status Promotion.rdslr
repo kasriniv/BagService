@@ -1,4 +1,5 @@
 import java.lang.Number;
+import com.fly.traveloptions.bagservice.Passenger;
 
 rule "Apply Gold Status Promotion"
 	dialect "mvel"
