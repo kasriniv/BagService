@@ -100,7 +100,7 @@
       <fieldValues>
         <expect-field>
           <fieldName>shippingCost</fieldName>
-          <expected>29.99</expected>
+          <expected>19.99</expected>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -166,7 +166,7 @@
           <fieldName>shippingCost</fieldName>
           <expected>69.99</expected>
           <operator>==</operator>
-          <nature>0</nature>
+          <nature>1</nature>
         </expect-field>
       </fieldValues>
       <name>hiPassenger</name>
