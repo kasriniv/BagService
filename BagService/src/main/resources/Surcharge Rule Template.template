@@ -1,18 +1,72 @@
 <rule>
   <name>Surcharge Rule Template</name>
   <modelVersion>1.0</modelVersion>
-  <attributes/>
+  <attributes>
+    <attribute>
+      <attributeName>no-loop</attributeName>
+      <value>true</value>
+    </attribute>
+  </attributes>
   <metadataList/>
-  <lhs/>
-  <rhs/>
+  <lhs>
+    <fact>
+      <constraintList>
+        <constraints>
+          <fieldConstraint>
+            <value>stateKey</value>
+            <operator>==</operator>
+            <constraintValueType>7</constraintValueType>
+            <expression>
+              <parts/>
+            </expression>
+            <parameters/>
+            <factType>Passenger</factType>
+            <fieldName>state</fieldName>
+            <fieldType>String</fieldType>
+          </fieldConstraint>
+        </constraints>
+      </constraintList>
+      <factType>Passenger</factType>
+      <boundName>$passenger</boundName>
+      <isNegated>false</isNegated>
+      <window>
+        <parameters/>
+      </window>
+    </fact>
+  </lhs>
+  <rhs>
+    <modify>
+      <fieldValues>
+        <fieldValue>
+          <field>surcharge</field>
+          <value>surchargeKey</value>
+          <nature>7</nature>
+          <type>Double</type>
+        </fieldValue>
+      </fieldValues>
+      <variable>$passenger</variable>
+    </modify>
+  </rhs>
   <imports>
-    <imports/>
+    <imports>
+      <org.drools.workbench.models.datamodel.imports.Import>
+        <type>com.fly.traveloptions.bagservice.Passenger</type>
+      </org.drools.workbench.models.datamodel.imports.Import>
+    </imports>
   </imports>
   <packageName></packageName>
   <isNegated>false</isNegated>
   <table>
     <entry>
+      <string>surchargeKey</string>
+      <list/>
+    </entry>
+    <entry>
       <string>__ID_KOL_NAME__</string>
+      <list/>
+    </entry>
+    <entry>
+      <string>stateKey</string>
       <list/>
     </entry>
   </table>
