@@ -5,7 +5,7 @@ rule "Apply Surcharge DSL"
 	dialect "mvel"
 	ruleflow-group "apply-surcharges"
 	when
-		A Passenger is from the following states "AK", "HI"
+		A Passenger is from the following states "AK", "HI" , "TX"
 	then
 		Apply a surcharge of 25.00
 end
