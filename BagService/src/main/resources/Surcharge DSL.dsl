@@ -1,0 +1,2 @@
+[when]A Passenger is from the following states {states}=$passenger : Passenger( state in ( {states} ) )
+[then]Apply a surcharge of {surcharge}=$passenger.setSurcharge( {surcharge} );  update( $passenger );
