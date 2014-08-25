@@ -4,6 +4,7 @@ import com.fly.traveloptions.bagservice.Passenger;
 rule "Apply Gold Status Promotion"
 	dialect "mvel"
 	ruleflow-group "apply-promotions"
+	no-loop true
 	when
 		If a passenger has a flyer status of Gold
 	then
