@@ -91,7 +91,16 @@ public class Passenger  implements java.io.Serializable {
         return this.zipCode;
     }
 
-    public void setZipCode(java.lang.String zipCode) {
+	public void setZipCode(java.lang.String zipCode) {
         this.zipCode = zipCode;
     }
+	
+
+    @Override
+	public String toString() {
+		return "Passenger [firstName=" + firstName + ", flyerStatus="
+				+ flyerStatus + ", lastName=" + lastName + ", countryCode="
+				+ countryCode + ", zipCode=" + zipCode + ", state=" + state
+				+ "]";
+	}
 }
