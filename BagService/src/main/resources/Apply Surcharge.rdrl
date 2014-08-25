@@ -4,6 +4,7 @@ import com.fly.traveloptions.bagservice.Passenger;
 rule "Apply Surcharge"
 	dialect "mvel"
 	no-loop true
+	ruleflow-group "calculate-surcharges"
 	when
 		$passenger : Passenger( state in ( "AK", "HI" ) )
 	then
