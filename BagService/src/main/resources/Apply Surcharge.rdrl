@@ -5,6 +5,7 @@ rule "Apply Surcharge"
 	dialect "mvel"
 	no-loop true
 	ruleflow-group "apply-surcharges"
+	enabled false
 	when
 		$passenger : Passenger( state in ( "AK", "HI" ) )
 	then
