@@ -33,13 +33,13 @@
       <fieldValues>
         <expect-field>
           <fieldName>surcharge</fieldName>
-          <expected></expected>
+          <expected>0.00</expected>
           <operator>==</operator>
           <nature>0</nature>
         </expect-field>
         <expect-field>
           <fieldName>shippingCost</fieldName>
-          <expected></expected>
+          <expected>0.00</expected>
           <operator>==</operator>
           <nature>0</nature>
         </expect-field>
