@@ -86,9 +86,9 @@
       <fieldValues>
         <expect-field>
           <fieldName>surcharge</fieldName>
-          <expected>0.0</expected>
+          <expected>0</expected>
           <operator>==</operator>
-          <nature>0</nature>
+          <nature>1</nature>
         </expect-field>
       </fieldValues>
       <name>txPassenger</name>
