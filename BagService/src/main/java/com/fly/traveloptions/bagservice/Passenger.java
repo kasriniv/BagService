@@ -133,4 +133,15 @@ public class Passenger extends java.lang.Object implements java.io.Serializable 
     public void setZipCode(java.lang.String zipCode) {
         this.zipCode = zipCode;
     }
+
+	@Override
+	public String toString() {
+		return "Passenger [firstName=" + firstName + ", lastName=" + lastName
+				+ ", flyerStatus=" + flyerStatus + ", countryCode="
+				+ countryCode + ", state=" + state + ", zipCode=" + zipCode
+				+ ", surcharge=" + surcharge + ", shippingCost=" + shippingCost
+				+ ", numberOfBags=" + numberOfBags + "]";
+	}
+    
+    
 }
