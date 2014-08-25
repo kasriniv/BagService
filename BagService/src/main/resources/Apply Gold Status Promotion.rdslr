@@ -3,6 +3,10 @@ import com.fly.traveloptions.bagservice.Passenger;
 
 rule "Apply Gold Status Promotion"
 	dialect "mvel"
+	ruleflow-group "apply-promotions"
 	when
+		If a passenger has a flyer status of Gold
 	then
+		Waive Shipping Rates
+		Waive Surcharge
 end
