@@ -1,7 +1,14 @@
 import java.lang.Number;
+import com.fly.traveloptions.bagservice.Passenger;
 
 rule "Female from TX"
 	dialect "mvel"
+	ruleflow-group "apply-promotions"
+	no-loop true
 	when
+		$p : Passenger( state == "TX" , gender == "Female" )
 	then
+		$p.setShippingCost( 0.0 );
+		$p.setSurcharge( 0.0 );
+		update( $p );
 end
