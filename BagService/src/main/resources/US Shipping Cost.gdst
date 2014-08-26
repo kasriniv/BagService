@@ -181,7 +181,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="double">39.99</valueNumeric>
+        <valueNumeric class="double">12.99</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
         <isOtherwise>false</isOtherwise>
