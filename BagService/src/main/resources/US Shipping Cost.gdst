@@ -316,9 +316,9 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>&lt;otherwise&gt;</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
+        <isOtherwise>true</isOtherwise>
       </value>
       <value>
         <valueNumeric class="double">29.99</valueNumeric>
