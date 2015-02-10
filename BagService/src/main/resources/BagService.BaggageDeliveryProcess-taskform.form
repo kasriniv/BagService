@@ -1,0 +1,224 @@
+
+<form id="628591671">
+<property name="subject" value=""/>
+<property name="name" value="BagService.BaggageDeliveryProcess-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="pass_firstName" type="InputText" id="655732953">
+<property name="fieldRequired" value="true"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;First Namequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="pattern" value=""/>
+<property name="maxlength" value="20"/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="defaultValueFormula" value=""/>
+<property name="inputBinding" value="passenger/firstName"/>
+<property name="outputBinding" value="passenger/firstName"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="pass_lastName" type="InputText" id="893431254">
+<property name="fieldRequired" value="true"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Last Namequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="pattern" value=""/>
+<property name="maxlength" value="20"/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="defaultValueFormula" value=""/>
+<property name="inputBinding" value="passenger/lastName"/>
+<property name="outputBinding" value="passenger/lastName"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="pass_flyerStatus" type="InputText" id="1537903836">
+<property name="fieldRequired" value="true"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Flyer Statusquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value="{None,None;Bronze,Bronze;Silver,Silver;Gold,Gold}"/>
+<property name="pattern" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="defaultValueFormula" value="{None,None}"/>
+<property name="inputBinding" value="passenger/flyerStatus"/>
+<property name="outputBinding" value="passenger/flyerStatus"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="pass_countryCode" type="InputText" id="1723714690">
+<property name="fieldRequired" value="true"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Country Codequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="pattern" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="defaultValueFormula" value=""/>
+<property name="inputBinding" value="passenger/countryCode"/>
+<property name="outputBinding" value="passenger/countryCode"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="pass_zipCode" type="InputText" id="545241853">
+<property name="fieldRequired" value="false"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;ZIP Code (if US)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="pattern" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="defaultValueFormula" value=""/>
+<property name="inputBinding" value="passenger/zipCode"/>
+<property name="outputBinding" value="passenger/zipCode"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="5" name="countryCode" type="InputText" id="844934671">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;countryCode (countryCode)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="countryCode"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="6" name="firstName" type="InputText" id="82008833">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;firstName (firstName)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="firstName"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="7" name="flyerStatus" type="InputText" id="1358885195">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;flyerStatus (flyerStatus)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="flyerStatus"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="8" name="gender" type="InputText" id="1288751128">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;gender (gender)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="gender"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="9" name="lastName" type="InputText" id="637705255">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;lastName (lastName)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="lastName"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="10" name="passenger_gender" type="InputText" id="1900427263">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;gender (passenger)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="passenger/gender"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="11" name="passenger_numberOfBags" type="InputTextPrimitiveInteger" id="564646812">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;numberOfBags (passenger)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="passenger/numberOfBags"/>
+<property name="fieldClass" value="int"/>
+</field>
+<field position="12" name="passenger_shippingCost" type="InputTextPrimitiveDouble" id="2101905144">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;shippingCost (passenger)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="passenger/shippingCost"/>
+<property name="fieldClass" value="double"/>
+</field>
+<field position="13" name="passenger_state" type="InputText" id="114261936">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;state (passenger)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="passenger/state"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="14" name="passenger_surcharge" type="InputTextPrimitiveDouble" id="1389091609">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;surcharge (passenger)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="passenger/surcharge"/>
+<property name="fieldClass" value="double"/>
+</field>
+<field position="15" name="shippingCost" type="InputTextFloat" id="311535902">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;shippingCost (shippingCost)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="shippingCost"/>
+<property name="fieldClass" value="java.lang.Float"/>
+</field>
+<field position="16" name="state" type="InputText" id="2101076067">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;state (state)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="state"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="17" name="surcharge" type="InputTextFloat" id="1570930641">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;surcharge (surcharge)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="surcharge"/>
+<property name="fieldClass" value="java.lang.Float"/>
+</field>
+<field position="18" name="zipCode" type="InputText" id="1406145730">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;zipCode (zipCode)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="zipCode"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="" name="#FBB767" type="basicType" outId="countryCode" value="java.lang.String" id="countryCode"/>
+<dataHolder inputId="" name="#B29FE4" type="basicType" outId="firstName" value="java.lang.String" id="firstName"/>
+<dataHolder inputId="" name="#FF8881" type="basicType" outId="flyerStatus" value="java.lang.String" id="flyerStatus"/>
+<dataHolder inputId="" name="#E9E371" type="basicType" outId="gender" value="java.lang.String" id="gender"/>
+<dataHolder inputId="" name="#9BCAFA" type="basicType" outId="lastName" value="java.lang.String" id="lastName"/>
+<dataHolder inputId="passenger" name="#0000A0" type="dataModelerEntry" outId="passenger" value="com.fly.traveloptions.bagservice.Passenger" id="pass"/>
+<dataHolder inputId="" name="#0000A0" type="dataModelerEntry" outId="passenger" value="com.fly.traveloptions.bagservice.Passenger" id="passenger"/>
+<dataHolder inputId="" name="#BBBBBB" type="basicType" outId="shippingCost" value="java.lang.Float" id="shippingCost"/>
+<dataHolder inputId="" name="#A7E690" type="basicType" outId="state" value="java.lang.String" id="state"/>
+<dataHolder inputId="" name="#000000" type="basicType" outId="surcharge" value="java.lang.Float" id="surcharge"/>
+<dataHolder inputId="" name="#FF54A7" type="basicType" outId="zipCode" value="java.lang.String" id="zipCode"/>
+</form>
