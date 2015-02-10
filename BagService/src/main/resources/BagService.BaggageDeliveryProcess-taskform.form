@@ -112,13 +112,6 @@
 <property name="outputBinding" value="passenger/zipCode"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="5" name="passenger_numberOfBags" type="InputTextPrimitiveInteger" id="564646812">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;numberOfBags (passenger)quot;"/>
-<property name="inputBinding" value=""/>
-<property name="outputBinding" value="passenger/numberOfBags"/>
-<property name="fieldClass" value="int"/>
-</field>
 <dataHolder inputId="" name="#FBB767" type="basicType" outId="countryCode" value="java.lang.String" id="countryCode"/>
 <dataHolder inputId="" name="#B29FE4" type="basicType" outId="firstName" value="java.lang.String" id="firstName"/>
 <dataHolder inputId="" name="#FF8881" type="basicType" outId="flyerStatus" value="java.lang.String" id="flyerStatus"/>
