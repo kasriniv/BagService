@@ -112,103 +112,12 @@
 <property name="outputBinding" value="passenger/zipCode"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="5" name="countryCode" type="InputText" id="844934671">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;countryCode (countryCode)quot;"/>
-<property name="inputBinding" value=""/>
-<property name="outputBinding" value="countryCode"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="6" name="firstName" type="InputText" id="82008833">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;firstName (firstName)quot;"/>
-<property name="inputBinding" value=""/>
-<property name="outputBinding" value="firstName"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="7" name="flyerStatus" type="InputText" id="1358885195">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;flyerStatus (flyerStatus)quot;"/>
-<property name="inputBinding" value=""/>
-<property name="outputBinding" value="flyerStatus"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="8" name="gender" type="InputText" id="1288751128">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;gender (gender)quot;"/>
-<property name="inputBinding" value=""/>
-<property name="outputBinding" value="gender"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="9" name="lastName" type="InputText" id="637705255">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;lastName (lastName)quot;"/>
-<property name="inputBinding" value=""/>
-<property name="outputBinding" value="lastName"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="10" name="passenger_gender" type="InputText" id="1900427263">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;gender (passenger)quot;"/>
-<property name="inputBinding" value=""/>
-<property name="outputBinding" value="passenger/gender"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="11" name="passenger_numberOfBags" type="InputTextPrimitiveInteger" id="564646812">
+<field position="5" name="passenger_numberOfBags" type="InputTextPrimitiveInteger" id="564646812">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;numberOfBags (passenger)quot;"/>
 <property name="inputBinding" value=""/>
 <property name="outputBinding" value="passenger/numberOfBags"/>
 <property name="fieldClass" value="int"/>
-</field>
-<field position="12" name="passenger_shippingCost" type="InputTextPrimitiveDouble" id="2101905144">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;shippingCost (passenger)quot;"/>
-<property name="inputBinding" value=""/>
-<property name="outputBinding" value="passenger/shippingCost"/>
-<property name="fieldClass" value="double"/>
-</field>
-<field position="13" name="passenger_state" type="InputText" id="114261936">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;state (passenger)quot;"/>
-<property name="inputBinding" value=""/>
-<property name="outputBinding" value="passenger/state"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="14" name="passenger_surcharge" type="InputTextPrimitiveDouble" id="1389091609">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;surcharge (passenger)quot;"/>
-<property name="inputBinding" value=""/>
-<property name="outputBinding" value="passenger/surcharge"/>
-<property name="fieldClass" value="double"/>
-</field>
-<field position="15" name="shippingCost" type="InputTextFloat" id="311535902">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;shippingCost (shippingCost)quot;"/>
-<property name="inputBinding" value=""/>
-<property name="outputBinding" value="shippingCost"/>
-<property name="fieldClass" value="java.lang.Float"/>
-</field>
-<field position="16" name="state" type="InputText" id="2101076067">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;state (state)quot;"/>
-<property name="inputBinding" value=""/>
-<property name="outputBinding" value="state"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="17" name="surcharge" type="InputTextFloat" id="1570930641">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;surcharge (surcharge)quot;"/>
-<property name="inputBinding" value=""/>
-<property name="outputBinding" value="surcharge"/>
-<property name="fieldClass" value="java.lang.Float"/>
-</field>
-<field position="18" name="zipCode" type="InputText" id="1406145730">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;zipCode (zipCode)quot;"/>
-<property name="inputBinding" value=""/>
-<property name="outputBinding" value="zipCode"/>
-<property name="fieldClass" value="java.lang.String"/>
 </field>
 <dataHolder inputId="" name="#FBB767" type="basicType" outId="countryCode" value="java.lang.String" id="countryCode"/>
 <dataHolder inputId="" name="#B29FE4" type="basicType" outId="firstName" value="java.lang.String" id="firstName"/>
