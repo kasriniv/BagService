@@ -5,28 +5,120 @@ package com.redhat.demos.recovery;
  */
 
 @javax.persistence.Entity
-public class Order implements java.io.Serializable {
+public class Order implements java.io.Serializable
+{
 
-    static final long serialVersionUID = 1L;
+   static final long serialVersionUID = 1L;
 
-    @javax.persistence.GeneratedValue(strategy = javax.persistence.GenerationType.AUTO, generator = "ORDER_ID_GENERATOR")
-    @javax.persistence.Id
-    @javax.persistence.SequenceGenerator(name = "ORDER_ID_GENERATOR", sequenceName = "ORDER_ID_SEQ")
-    private java.lang.Long id;
+   @javax.persistence.GeneratedValue(strategy = javax.persistence.GenerationType.AUTO, generator = "ORDER_ID_GENERATOR")
+   @javax.persistence.Id
+   @javax.persistence.SequenceGenerator(name = "ORDER_ID_GENERATOR", sequenceName = "ORDER_ID_SEQ")
+   private java.lang.Long id;
 
-    public Order() {
-    }
-    
-    public Order(java.lang.Long id) {
-        this.id = id;
-    }
+   @org.kie.api.definition.type.Label(value = "First Name")
+   private java.lang.String firstName;
 
-    public java.lang.Long getId() {
-        return this.id;
-    }
-    
-    public void setId(java.lang.Long id) {
-        this.id = id;
-    }
+   @org.kie.api.definition.type.Label(value = "Last Name")
+   private java.lang.String lastName;
+
+   @org.kie.api.definition.type.Label(value = "Address")
+   private java.lang.String address;
+
+   @org.kie.api.definition.type.Label(value = "City")
+   private java.lang.String city;
+
+   @org.kie.api.definition.type.Label(value = "Source")
+   private java.lang.String source;
+
+   @org.kie.api.definition.type.Label(value = "Order ID")
+   private java.lang.String orderId;
+
+   public Order()
+   {
+   }
+
+   public java.lang.Long getId()
+   {
+      return this.id;
+   }
+
+   public void setId(java.lang.Long id)
+   {
+      this.id = id;
+   }
+
+   public java.lang.String getFirstName()
+   {
+      return this.firstName;
+   }
+
+   public void setFirstName(java.lang.String firstName)
+   {
+      this.firstName = firstName;
+   }
+
+   public java.lang.String getLastName()
+   {
+      return this.lastName;
+   }
+
+   public void setLastName(java.lang.String lastName)
+   {
+      this.lastName = lastName;
+   }
+
+   public java.lang.String getAddress()
+   {
+      return this.address;
+   }
+
+   public void setAddress(java.lang.String address)
+   {
+      this.address = address;
+   }
+
+   public java.lang.String getCity()
+   {
+      return this.city;
+   }
+
+   public void setCity(java.lang.String city)
+   {
+      this.city = city;
+   }
+
+   public java.lang.String getSource()
+   {
+      return this.source;
+   }
+
+   public void setSource(java.lang.String source)
+   {
+      this.source = source;
+   }
+
+   public java.lang.String getOrderId()
+   {
+      return this.orderId;
+   }
+
+   public void setOrderId(java.lang.String orderId)
+   {
+      this.orderId = orderId;
+   }
+
+   public Order(java.lang.Long id, java.lang.String firstName,
+         java.lang.String lastName, java.lang.String address,
+         java.lang.String city, java.lang.String source,
+         java.lang.String orderId)
+   {
+      this.id = id;
+      this.firstName = firstName;
+      this.lastName = lastName;
+      this.address = address;
+      this.city = city;
+      this.source = source;
+      this.orderId = orderId;
+   }
 
 }
