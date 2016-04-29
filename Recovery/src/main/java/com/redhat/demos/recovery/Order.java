@@ -15,23 +15,26 @@ public class Order implements java.io.Serializable
    @javax.persistence.SequenceGenerator(name = "ORDER_ID_GENERATOR", sequenceName = "ORDER_ID_SEQ")
    private java.lang.Long id;
 
-   @org.kie.api.definition.type.Label(value = "First Name")
+   @org.kie.api.definition.type.Label("First Name")
    private java.lang.String firstName;
 
-   @org.kie.api.definition.type.Label(value = "Last Name")
+   @org.kie.api.definition.type.Label("Last Name")
    private java.lang.String lastName;
 
-   @org.kie.api.definition.type.Label(value = "Address")
+   @org.kie.api.definition.type.Label("Address")
    private java.lang.String address;
 
-   @org.kie.api.definition.type.Label(value = "City")
+   @org.kie.api.definition.type.Label("City")
    private java.lang.String city;
 
-   @org.kie.api.definition.type.Label(value = "Source")
+   @org.kie.api.definition.type.Label("Source")
    private java.lang.String source;
 
-   @org.kie.api.definition.type.Label(value = "Order ID")
+   @org.kie.api.definition.type.Label("Order ID")
    private java.lang.String orderId;
+
+   @org.kie.api.definition.type.Label(value = "Special Requirements")
+   private java.lang.Boolean specialReq;
 
    public Order()
    {
@@ -107,10 +110,20 @@ public class Order implements java.io.Serializable
       this.orderId = orderId;
    }
 
+   public java.lang.Boolean getSpecialReq()
+   {
+      return this.specialReq;
+   }
+
+   public void setSpecialReq(java.lang.Boolean specialReq)
+   {
+      this.specialReq = specialReq;
+   }
+
    public Order(java.lang.Long id, java.lang.String firstName,
          java.lang.String lastName, java.lang.String address,
          java.lang.String city, java.lang.String source,
-         java.lang.String orderId)
+         java.lang.String orderId, java.lang.Boolean specialReq)
    {
       this.id = id;
       this.firstName = firstName;
@@ -119,6 +132,7 @@ public class Order implements java.io.Serializable
       this.city = city;
       this.source = source;
       this.orderId = orderId;
+      this.specialReq = specialReq;
    }
 
 }
