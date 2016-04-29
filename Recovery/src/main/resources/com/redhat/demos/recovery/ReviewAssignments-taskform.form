@@ -1,0 +1,72 @@
+
+<form id="970969031">
+<property name="name" value="ReviewAssignments-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="approved" type="CheckBox" id="684747289">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;approval (approved)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="approval"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="1" name="comm" type="InputText" id="2029864537">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;comments (comm)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="comments"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="order_address" type="InputText" id="1194638309">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;address (order)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="orderIN/address"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="order_city" type="InputText" id="1020283032">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;city (order)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="orderIN/city"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="order_firstName" type="InputText" id="232178100">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;firstName (order)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="orderIN/firstName"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="5" name="order_id" type="InputTextLong" id="1329032606">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;id (order)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="orderIN/id"/>
+<property name="fieldClass" value="java.lang.Long"/>
+</field>
+<field position="6" name="order_lastName" type="InputText" id="1714473005">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;lastName (order)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="orderIN/lastName"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="7" name="order_orderId" type="InputText" id="68704398">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;orderId (order)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="orderIN/orderId"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="8" name="order_source" type="InputText" id="1423224904">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;source (order)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="orderIN/source"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="" name="#FF8881" type="basicType" outId="approval" value="java.lang.Boolean" id="approved"/>
+<dataHolder inputId="" name="#000000" type="basicType" outId="comments" value="java.lang.String" id="comm"/>
+<dataHolder inputId="orderIN" name="#A7E690" type="dataModelerEntry" outId="" value="com.redhat.demos.recovery.Order" id="order"/>
+</form>
