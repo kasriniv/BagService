@@ -1,0 +1,79 @@
+
+<form id="470424366">
+<property name="name" value="AnalyzeAssignment-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="3" name="order_city" type="InputText" id="1418388136">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;city (order)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in/city"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="8" name="order_source" type="InputText" id="1332793315">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;source (order)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in/source"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="5" name="order_id" type="InputTextLong" id="4120634">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;id (order)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in/id"/>
+<property name="fieldClass" value="java.lang.Long"/>
+</field>
+<field position="6" name="order_lastName" type="InputText" id="1947419510">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;lastName (order)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in/lastName"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="0" name="approved" type="CheckBox" id="1670044978">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;approval (approved)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="approval"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="4" name="order_firstName" type="InputText" id="2044202128">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;firstName (order)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in/firstName"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="order_address" type="InputText" id="311317879">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;address (order)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in/address"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="comm" type="InputText" id="1504970942">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;comments (comm)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="comments"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="7" name="order_orderId" type="InputText" id="1072287447">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;orderId (order)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in/orderId"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="9" name="order_specialReq" type="CheckBox" id="519964848">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;specialReq (order)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in/specialReq"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<dataHolder inputId="" name="#FF8881" type="basicType" outId="approval" value="java.lang.Boolean" id="approved"/>
+<dataHolder inputId="" name="#000000" type="basicType" outId="comments" value="java.lang.String" id="comm"/>
+<dataHolder inputId="in" name="#A7E690" type="dataModelerEntry" outId="" value="com.redhat.demos.recovery.Order" id="order"/>
+</form>
