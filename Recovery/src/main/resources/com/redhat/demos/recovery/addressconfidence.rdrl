@@ -3,11 +3,13 @@ package com.redhat.demos.recovery;
 import java.lang.Number;
 
 rule "addressconfidence"
-	dialect "java"
+	dialect "mvel"
 	ruleflow-group "address-confidence"
 	when
-		Order( addressconfidence >= 3 )
+		$order : Order( confidencerating > "3" )
 	then
-		System.out.println("high address confidence"); 
-		kcontext.setVariable("addressconfidence","true");
+		System.out.println("high address confidence");
+		modify( $order ) {
+				setAddressconfidence( true )
+		}
 end
