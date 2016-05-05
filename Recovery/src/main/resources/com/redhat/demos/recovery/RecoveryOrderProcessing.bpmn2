@@ -677,18 +677,7 @@
       </bpmn2:extensionElements>
       <bpmn2:incoming>_73C3240E-4C4C-4FD9-AFF6-BF3E8902A36D</bpmn2:incoming>
       <bpmn2:outgoing>_EED83F30-A767-4CA2-ACFB-5A3AC69B9752</bpmn2:outgoing>
-      <bpmn2:script><![CDATA[String val=(String)kcontext.getVariable("webserviceout");
-System.out.println(val);
-java.util.ArrayList aList= new ArrayList(java.util.Arrays.asList(val.split(",")));
-for(int i=0;i<aList.size();i++)
-{
-    System.out.println(" -->"+aList.get(i));
-}
-
-
-kcontext.setVariable("firstName",(String)aList.get(0));
-kcontext.setVariable("confidencerating",(String)aList.get(7));
-order.setConfidencerating((String)aList.get(7));]]></bpmn2:script>
+      <bpmn2:script></bpmn2:script>
     </bpmn2:scriptTask>
   </bpmn2:process>
   <bpmndi:BPMNDiagram id="_f-eWnxMaEeaRNK_UQarzwA">
