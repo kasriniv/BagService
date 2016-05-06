@@ -22,5 +22,7 @@ rule "WhichAgents"
 		System.out.println("fired whichagents rule");
 		modify( $agencylist ) {
 				setListofagencies( agency1 )
+				System.out.prilnt("got here");
 		}
+		System.out.println("all done");
 end
