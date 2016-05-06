@@ -6,7 +6,7 @@ rule "WhichAgents"
 	dialect "mvel"
 	ruleflow-group "findagents"
 	when
-		$order : Order( market == "2" )
+		$order : Order( market matches "2" )
 	then
 		Agency agency1 = new Agency();
 		agency1.setName( "XYZ Agent" );
