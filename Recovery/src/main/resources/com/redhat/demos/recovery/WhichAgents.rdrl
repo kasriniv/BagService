@@ -1,0 +1,9 @@
+package com.redhat.demos.recovery;
+
+import java.lang.Number;
+
+rule "WhichAgents"
+	dialect "mvel"
+	when
+	then
+end
