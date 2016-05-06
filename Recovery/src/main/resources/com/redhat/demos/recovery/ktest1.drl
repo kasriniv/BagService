@@ -9,17 +9,13 @@ rule "WhichAgents"
 	ruleflow-group "findagents"
 	when
 		$order : Order( market == "2" )
-		$agencylist : ListofAgencies( )
+	$agencylist : ListofAgencies( agency1)
 	then
 	System.out.println("rule findagents fired")
-		Agency agency1 = new Agency();
+		//Agency agency1 = new Agency();
 		agency1.setName( "XYZ Agent" );
 		agency1.setRating( 3 );
-	//	insert( agency1 );
-		Agency agency2 = new Agency();
-		agency2.setName( "All Recovery" );
-		agency2.setRating( 4 );
-	//	insert( agency2 );
+	
 		System.out.println("fired whichagents rule");
 		modify( $agencylist ) {
 				setListofagencies( agency1 )
