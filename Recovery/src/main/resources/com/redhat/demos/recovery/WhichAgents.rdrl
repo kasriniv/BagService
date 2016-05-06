@@ -1,12 +1,14 @@
 package com.redhat.demos.recovery;
 
 import java.lang.Number;
+import java.util.List;
 
 rule "WhichAgents"
 	dialect "mvel"
-	ruleflow-group "findagents"
+	ruleflow-group "findagents2"
 	when
 		$order : Order( market == "2" )
+		$agencylist : ListofAgencies( )
 	then
 		Agency agency1 = new Agency();
 		agency1.setName( "XYZ Agent" );
@@ -17,4 +19,7 @@ rule "WhichAgents"
 		agency2.setRating( 4 );
 		insert( agency2 );
 		System.out.println("fired whichagents rule");
+		modify( $agencylist ) {
+				setListofagencies( agency1 )
+		}
 end
