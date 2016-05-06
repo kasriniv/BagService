@@ -94,7 +94,7 @@
       <header>Log</header>
       <definition>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
-          <text>System.out.println(&quot;Rule executed&quot;);</text>
+          <text>System.out.println(&quot;Requirements Rule executed&quot;);</text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
       </definition>
       <childColumns>
