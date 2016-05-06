@@ -37,9 +37,9 @@ public class Order implements java.io.Serializable
    private java.lang.Boolean specialReq;
 
    @org.kie.api.definition.type.Label("Confidence Rating")
-   private java.lang.String confidencerating;
+   private int confidencerating;
 
-   @org.kie.api.definition.type.Label(value = "Address Confidence YN")
+   @org.kie.api.definition.type.Label("Address Confidence YN")
    private java.lang.Boolean addressconfidence;
 
    public Order()
@@ -126,16 +126,6 @@ public class Order implements java.io.Serializable
       this.specialReq = specialReq;
    }
 
-   public java.lang.String getConfidencerating()
-   {
-      return this.confidencerating;
-   }
-
-   public void setConfidencerating(java.lang.String confidencerating)
-   {
-      this.confidencerating = confidencerating;
-   }
-
    public java.lang.Boolean getAddressconfidence()
    {
       return this.addressconfidence;
@@ -146,11 +136,21 @@ public class Order implements java.io.Serializable
       this.addressconfidence = addressconfidence;
    }
 
+   public int getConfidencerating()
+   {
+      return this.confidencerating;
+   }
+
+   public void setConfidencerating(int confidencerating)
+   {
+      this.confidencerating = confidencerating;
+   }
+
    public Order(java.lang.Long id, java.lang.String firstName,
          java.lang.String lastName, java.lang.String address,
          java.lang.String city, java.lang.String source,
          java.lang.String orderId, java.lang.Boolean specialReq,
-         java.lang.String confidencerating, java.lang.Boolean addressconfidence)
+         int confidencerating, java.lang.Boolean addressconfidence)
    {
       this.id = id;
       this.firstName = firstName;
