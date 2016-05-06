@@ -145,6 +145,11 @@ public class Order implements java.io.Serializable
    {
       this.confidencerating = confidencerating;
    }
+   
+   public String toString(){
+       System.out.println("city"+city+"source: "+source);
+   }
+
 
    public Order(java.lang.Long id, java.lang.String firstName,
          java.lang.String lastName, java.lang.String address,
