@@ -11,6 +11,7 @@ rule "WhichAgents"
 		$order : Order( market == "2" )
 		$agencylist : ListofAgencies( )
 	then
+	System.out.println("rule findagents fired")
 		Agency agency1 = new Agency();
 		agency1.setName( "XYZ Agent" );
 		agency1.setRating( 3 );
