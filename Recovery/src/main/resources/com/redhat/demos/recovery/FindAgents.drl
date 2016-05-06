@@ -1,6 +1,6 @@
 package com.redhat.demos.recovery;
 
-rule "Row 1 NewAgentFind"
+rule "findagents1"
 	ruleflow-group "findagents"
 	dialect "mvel"
 	when
