@@ -16,4 +16,5 @@ rule "WhichAgents"
 		agency2.setName( "All Recovery" );
 		agency2.setRating( 4 );
 		insert( agency2 );
+		 System.out.println("fired whichagents rule");
 end
