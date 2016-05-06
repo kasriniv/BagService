@@ -6,6 +6,7 @@ import java.lang.Number;
 
 rule "RatingRule"
 	dialect "mvel"
+	ruleflow-group "maxagency"
 	when
 		MaxAgency : Agency( ) from accumulate ( agency : Agency( vRating : rating),
 			max(vRating)) 
