@@ -4,7 +4,7 @@ rule "Row 1 NewAgentFind"
 	ruleflow-group "findagents"
 	dialect "mvel"
 	when
-		f1 : Agency( market1 in ( "2" ))
+		f1 : Order( market in ( "2" ))
 	then
 	Agency ag1= new Agency();
 	ag1.setName("ABC Recovery");
