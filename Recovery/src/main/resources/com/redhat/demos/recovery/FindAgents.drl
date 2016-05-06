@@ -4,8 +4,10 @@ rule "Row 1 NewAgentFind"
 	ruleflow-group "findagents"
 	dialect "mvel"
 	when
-		f1 : Order( market in ( "2" ))
+	
+		f1 : Order( market in ( "2","5" ))
 	then
+	System.out.println("fired rule findagents");
 	Agency ag1= new Agency();
 	ag1.setName("ABC Recovery");
 	ag1.setRating(3.5);
