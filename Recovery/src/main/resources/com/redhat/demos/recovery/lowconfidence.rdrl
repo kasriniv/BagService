@@ -1,0 +1,15 @@
+package com.redhat.demos.recovery;
+
+import java.lang.Number;
+
+rule "addressconfidence"
+	dialect "mvel"
+	ruleflow-group "address-confidence"
+	when
+		$order : Order( confidencerating > "3" )
+	then
+		System.out.println("high address confidence");
+		modify( $order ) {
+				setAddressconfidence( true )
+		}
+end
