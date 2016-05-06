@@ -1,2 +1,17 @@
 package com.redhat.demos.recovery;
 
+rule "Row 1 NewAgentFind"
+	ruleflow-group "findagents"
+	dialect "mvel"
+	when
+		f1 : Agency( market1 in ( "2" ))
+	then
+	Agency ag1= new Agency();
+	ag1.setName("ABC Recovery");
+	ag1.setRating(3.5);
+	System.out.println("one agent created");
+	Agency ag2  = new Agency();
+	ag2.setName("Recovery Inc");
+	ag2.setRating(4.0);
+		System.out.println("another agent created");
+end
