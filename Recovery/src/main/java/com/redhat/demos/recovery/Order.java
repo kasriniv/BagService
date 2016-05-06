@@ -42,6 +42,9 @@ public class Order implements java.io.Serializable
    @org.kie.api.definition.type.Label("Address Confidence YN")
    private java.lang.Boolean addressconfidence;
 
+   @org.kie.api.definition.type.Label(value = "zip")
+   private java.lang.String zip;
+
    public Order()
    {
    }
@@ -145,18 +148,29 @@ public class Order implements java.io.Serializable
    {
       this.confidencerating = confidencerating;
    }
-   
-   public String toString(){
-       System.out.println("city"+city+"source: "+source);
-       return ("city"+city+"source: "+source);
+
+   public String toString()
+   {
+      System.out.println("city" + city + "source: " + source);
+      return ("city" + city + "source: " + source);
    }
 
+   public java.lang.String getZip()
+   {
+      return this.zip;
+   }
+
+   public void setZip(java.lang.String zip)
+   {
+      this.zip = zip;
+   }
 
    public Order(java.lang.Long id, java.lang.String firstName,
          java.lang.String lastName, java.lang.String address,
          java.lang.String city, java.lang.String source,
          java.lang.String orderId, java.lang.Boolean specialReq,
-         int confidencerating, java.lang.Boolean addressconfidence)
+         int confidencerating, java.lang.Boolean addressconfidence,
+         java.lang.String zip)
    {
       this.id = id;
       this.firstName = firstName;
@@ -168,6 +182,7 @@ public class Order implements java.io.Serializable
       this.specialReq = specialReq;
       this.confidencerating = confidencerating;
       this.addressconfidence = addressconfidence;
+      this.zip = zip;
    }
 
 }
