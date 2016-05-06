@@ -1,0 +1,14 @@
+
+<form id="1339508075">
+<property name="name" value="FeedbackNotification-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="comm" type="InputText" id="199245839">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;Reason (comm)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="Reason"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="Reason" name="#000000" type="basicType" outId="" value="java.lang.String" id="comm"/>
+</form>
