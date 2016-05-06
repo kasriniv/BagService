@@ -1,2 +1,14 @@
 package com.redhat.demos.recovery;
 
+
+
+import java.lang.Number;
+
+rule "RatingRule"
+	dialect "mvel"
+	when
+		MaxAgency : Agency( ) from accumulate ( agency : Agency( vRating : rating),
+			max(vRating)) 
+	then
+		System.out.println("MaxRatedAgency" + MaxAgency.toString() );
+end
