@@ -1,13 +1,58 @@
 <scenario>
-  <name>ktestTEST</name>
+  <name>ktestTEST.scenario</name>
   <maxRuleFirings>100000</maxRuleFirings>
   <globals/>
-  <fixtures/>
+  <fixtures>
+    <fact-data>
+      <type>Order</type>
+      <fieldData>
+        <field-data>
+          <name>market</name>
+          <value>2</value>
+          <nature>4</nature>
+        </field-data>
+      </fieldData>
+      <name>order</name>
+      <isModify>false</isModify>
+    </fact-data>
+    <fact-data>
+      <type>ListofAgencies</type>
+      <fieldData>
+        <field-data>
+          <name>listofagencies</name>
+          <collectionFieldList>
+            <field-data>
+              <name>listofagencies</name>
+              <value></value>
+              <nature>0</nature>
+            </field-data>
+          </collectionFieldList>
+        </field-data>
+      </fieldData>
+      <name>loa</name>
+      <isModify>false</isModify>
+    </fact-data>
+    <org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
+      <name>findagents</name>
+    </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
+    <execution-trace>
+      <executionTimeResult>3</executionTimeResult>
+      <numberOfRulesFired>0</numberOfRulesFired>
+    </execution-trace>
+    <expect-fact>
+      <fieldValues/>
+      <name>loa</name>
+      <anonymous>false</anonymous>
+    </expect-fact>
+  </fixtures>
+  <lastRunResult>2016-05-07 11:16:27.419 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.redhat.demos.recovery</packageName>
   <imports>
     <imports/>
   </imports>
-  <ksessions/>
+  <ksessions>
+    <string>defaultKieSession</string>
+  </ksessions>
 </scenario>
