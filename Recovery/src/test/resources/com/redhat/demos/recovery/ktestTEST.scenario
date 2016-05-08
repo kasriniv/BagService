@@ -17,18 +17,7 @@
     </fact-data>
     <fact-data>
       <type>ListofAgencies</type>
-      <fieldData>
-        <field-data>
-          <name>listofagencies</name>
-          <collectionFieldList>
-            <field-data>
-              <name>listofagencies</name>
-              <value></value>
-              <nature>0</nature>
-            </field-data>
-          </collectionFieldList>
-        </field-data>
-      </fieldData>
+      <fieldData/>
       <name>loa</name>
       <isModify>false</isModify>
     </fact-data>
@@ -36,7 +25,7 @@
       <name>findagents</name>
     </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
     <execution-trace>
-      <executionTimeResult>3</executionTimeResult>
+      <executionTimeResult>4</executionTimeResult>
       <numberOfRulesFired>0</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
@@ -45,7 +34,7 @@
       <anonymous>false</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2016-05-07 11:16:27.419 UTC</lastRunResult>
+  <lastRunResult>2016-05-08 00:56:17.233 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.redhat.demos.recovery</packageName>
