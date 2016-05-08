@@ -2,7 +2,7 @@ package com.redhat.demos.recovery;
 
 import java.lang.Number;
 
-rule "trial1"
+rule "trial2"
 	dialect "mvel"
 	ruleflow-group "findagents"
 	when
