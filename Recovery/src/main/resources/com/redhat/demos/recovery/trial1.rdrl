@@ -7,7 +7,7 @@ rule "trial1"
 	ruleflow-group "findagents2"
 	when
 		loa : ListofAgencies( )
-		Order( market == "2" )
+		Order( market == "3" )
 	then
 		loa.setListofagencies(  );
 end
