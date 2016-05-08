@@ -32,5 +32,9 @@ public class ListofAgencies implements java.io.Serializable
    {
       this.listofagencies = listofagencies;
    }
+   public String toString(){
+       System.out.println("in tostring of loa");
+       return Integer.toString(this.listofagencies.size());
+   }
 
 }
