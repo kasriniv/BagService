@@ -1,6 +1,7 @@
 package com.redhat.demos.recovery;
 
 import java.lang.Number;
+import java.util.ArrayList;
 
 rule "trial2"
 	dialect "mvel"
@@ -8,12 +9,9 @@ rule "trial2"
 	when
 		loa : ListofAgencies( )
 		Order( market == "2" )
+	
+    $o : Agency() from loa.listofagencies 
 	then
 	System.out.println("In Findagents rule");
-	Agency a = new Agency();
-	a.setName("ktest");
-	a.setRating(4);
-	List listA = new ArrayList();
-	listA.add(a);
-		loa.setListofagencies(listA );
+	
 end
