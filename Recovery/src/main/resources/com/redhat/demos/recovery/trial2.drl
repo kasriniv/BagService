@@ -1,2 +1,19 @@
 package com.redhat.demos.recovery;
 
+import java.lang.Number;
+
+rule "trial1"
+	dialect "mvel"
+	ruleflow-group "findagents"
+	when
+		loa : ListofAgencies( )
+		Order( market == "2" )
+	then
+	System.out.println("In Findagents rule");
+	agency a = new Agency();
+	a.setName("ktest");
+	a.setRating(4);
+	List listA = new ArrayList();
+	listA.add(a);
+		loa.setListofagencies(listA );
+end
