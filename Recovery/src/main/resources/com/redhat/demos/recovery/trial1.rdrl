@@ -1,0 +1,9 @@
+package com.redhat.demos.recovery;
+
+import java.lang.Number;
+
+rule "trial1"
+	dialect "mvel"
+	when
+	then
+end
