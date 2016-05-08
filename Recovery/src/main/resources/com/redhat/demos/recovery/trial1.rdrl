@@ -4,6 +4,10 @@ import java.lang.Number;
 
 rule "trial1"
 	dialect "mvel"
+	ruleflow-group "findagents2"
 	when
+		loa : ListofAgencies( )
+		Order( market == "2" )
 	then
+		loa.setListofagencies(  );
 end
