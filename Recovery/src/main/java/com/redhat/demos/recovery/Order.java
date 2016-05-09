@@ -45,8 +45,11 @@ public class Order implements java.io.Serializable
    @org.kie.api.definition.type.Label("zip")
    private java.lang.String zip;
 
-   @org.kie.api.definition.type.Label(value = "Market")
+   @org.kie.api.definition.type.Label("Market")
    private java.lang.String market;
+
+   @org.kie.api.definition.type.Label(value = "Agency Assigned to")
+   private java.lang.String agencyassignedto;
 
    public Order()
    {
@@ -154,8 +157,8 @@ public class Order implements java.io.Serializable
 
    public String toString()
    {
-      System.out.println("city" + city + "source: " + source+"market"+market+"zip"+zip);
-      return ("city" + city + "source: " + source+"market"+market+"zip"+zip);
+      System.out.println("city" + city + "source: " + source + "market" + market + "zip" + zip);
+      return ("city" + city + "source: " + source + "market" + market + "zip" + zip);
    }
 
    public java.lang.String getZip()
@@ -178,12 +181,23 @@ public class Order implements java.io.Serializable
       this.market = market;
    }
 
+   public java.lang.String getAgencyassignedto()
+   {
+      return this.agencyassignedto;
+   }
+
+   public void setAgencyassignedto(java.lang.String agencyassignedto)
+   {
+      this.agencyassignedto = agencyassignedto;
+   }
+
    public Order(java.lang.Long id, java.lang.String firstName,
          java.lang.String lastName, java.lang.String address,
          java.lang.String city, java.lang.String source,
          java.lang.String orderId, java.lang.Boolean specialReq,
          int confidencerating, java.lang.Boolean addressconfidence,
-         java.lang.String zip, java.lang.String market)
+         java.lang.String zip, java.lang.String market,
+         java.lang.String agencyassignedto)
    {
       this.id = id;
       this.firstName = firstName;
@@ -197,6 +211,7 @@ public class Order implements java.io.Serializable
       this.addressconfidence = addressconfidence;
       this.zip = zip;
       this.market = market;
+      this.agencyassignedto = agencyassignedto;
    }
 
 }
