@@ -3,4 +3,74 @@
 <property name="name" value="Recovery.orders-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<field position="2" name="order1_address" type="InputText" id="1312921895">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;address (order1)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="orderin/address"/>
+<property name="outputBinding" value="orderout/address"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="order1_city" type="InputText" id="2023972192">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;city (order1)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="orderin/city"/>
+<property name="outputBinding" value="orderout/city"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="order1_firstName" type="InputText" id="91396577">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;firstName (order1)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="orderin/firstName"/>
+<property name="outputBinding" value="orderout/firstName"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="order1_id" type="InputTextLong" id="373938863">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;id (order1)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="orderin/id"/>
+<property name="outputBinding" value="orderout/id"/>
+<property name="fieldClass" value="java.lang.Long"/>
+</field>
+<field position="0" name="order1_lastName" type="InputText" id="170189368">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;lastName (order1)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="orderin/lastName"/>
+<property name="outputBinding" value="orderout/lastName"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="5" name="order1_orderId" type="InputText" id="260290702">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;orderId (order1)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="orderin/orderId"/>
+<property name="outputBinding" value="orderout/orderId"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="6" name="order1_source" type="InputText" id="777184673">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;source (order1)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="orderin/source"/>
+<property name="outputBinding" value="orderout/source"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="7" name="order1_zip" type="InputText" id="787736806">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;zip (order1)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="orderin/zip"/>
+<property name="outputBinding" value="orderout/zip"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="orderin" name="#E9E371" type="dataModelerEntry" outId="orderout" value="com.redhat.demos.recovery.Order" id="order1"/>
 </form>
