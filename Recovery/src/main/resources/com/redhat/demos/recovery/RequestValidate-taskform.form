@@ -1,0 +1,111 @@
+
+<form id="206967705">
+<property name="name" value="RequestValidate-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="order_address" type="InputText" id="515792239">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;address (order)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="order12/address"/>
+<property name="outputBinding" value="order12/address"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="order_addressconfidence" type="CheckBox" id="1351993140">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;addressconfidence (order)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="order12/addressconfidence"/>
+<property name="outputBinding" value="order12/addressconfidence"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="2" name="order_agencyassignedto" type="InputText" id="394530966">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;agencyassignedto (order)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="order12/agencyassignedto"/>
+<property name="outputBinding" value="order12/agencyassignedto"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="order_city" type="InputText" id="246510623">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;city (order)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="order12/city"/>
+<property name="outputBinding" value="order12/city"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="order_confidencerating" type="InputTextPrimitiveInteger" id="779596772">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;confidencerating (order)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="order12/confidencerating"/>
+<property name="outputBinding" value="order12/confidencerating"/>
+<property name="fieldClass" value="int"/>
+</field>
+<field position="5" name="order_firstName" type="InputText" id="2005040963">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;firstName (order)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="order12/firstName"/>
+<property name="outputBinding" value="order12/firstName"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="6" name="order_id" type="InputTextLong" id="119285404">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;id (order)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="order12/id"/>
+<property name="outputBinding" value="order12/id"/>
+<property name="fieldClass" value="java.lang.Long"/>
+</field>
+<field position="7" name="order_lastName" type="InputText" id="112245652">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;lastName (order)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="order12/lastName"/>
+<property name="outputBinding" value="order12/lastName"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="8" name="order_market" type="InputText" id="1701827672">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;market (order)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="order12/market"/>
+<property name="outputBinding" value="order12/market"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="9" name="order_orderId" type="InputText" id="1627332951">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;orderId (order)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="order12/orderId"/>
+<property name="outputBinding" value="order12/orderId"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="10" name="order_source" type="InputText" id="79329396">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;source (order)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="order12/source"/>
+<property name="outputBinding" value="order12/source"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="11" name="order_specialReq" type="CheckBox" id="1568800992">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;specialReq (order)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="order12/specialReq"/>
+<property name="outputBinding" value="order12/specialReq"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="12" name="order_zip" type="InputText" id="503804144">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;zip (order)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="order12/zip"/>
+<property name="outputBinding" value="order12/zip"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="order12" name="#A7E690" type="dataModelerEntry" outId="order12" value="com.redhat.demos.recovery.Order" id="order"/>
+</form>
