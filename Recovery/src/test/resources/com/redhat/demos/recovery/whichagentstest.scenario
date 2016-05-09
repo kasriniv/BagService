@@ -8,7 +8,7 @@
       <fieldData>
         <field-data>
           <name>market</name>
-          <value>1</value>
+          <value>2</value>
           <nature>4</nature>
         </field-data>
       </fieldData>
@@ -24,12 +24,18 @@
     <org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
       <name>findagents</name>
     </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
-    <execution-trace/>
+    <execution-trace>
+      <executionTimeResult>5</executionTimeResult>
+      <numberOfRulesFired>1</numberOfRulesFired>
+    </execution-trace>
     <expect-fact>
       <fieldValues>
         <expect-field>
           <fieldName>name</fieldName>
           <expected>ABC Recovery1</expected>
+          <actualResult>ABC Recovery</actualResult>
+          <successResult>false</successResult>
+          <explanation>[Agency] field [name] was [ABC Recovery] expected [ABC Recovery1].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -38,6 +44,7 @@
       <anonymous>true</anonymous>
     </expect-fact>
   </fixtures>
+  <lastRunResult>2016-05-09 18:38:34.700 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.redhat.demos.recovery</packageName>
