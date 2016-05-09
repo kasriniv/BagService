@@ -5,6 +5,7 @@ import java.lang.Number;
 rule "AgencyPickRule"
 	dialect "mvel"
 	ruleflow-group "findagents"
+	no-loop true
 	when
 		Order( market in ( "1", "2", "3", "5" ) )
 		agency : Agency( )
