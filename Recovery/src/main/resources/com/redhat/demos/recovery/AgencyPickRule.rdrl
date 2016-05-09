@@ -7,7 +7,7 @@ rule "AgencyPickRule"
 	ruleflow-group "findagents"
 	no-loop true
 	when
-		Order( market in ( "1", "2", "3", "5" ) )
+		Order( market == "2" )
 		agency : Agency( )
 	then
 		modify( agency ) {
