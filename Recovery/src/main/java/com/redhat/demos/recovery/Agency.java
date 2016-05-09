@@ -85,6 +85,10 @@ public class Agency implements java.io.Serializable
    {
       this.market3 = market3;
    }
+   public String toString(){
+       System.out.println("from agency do"+name+",,,"+rating);
+       return name;
+   }
 
    public Agency(java.lang.String id, java.lang.String name, int rating,
          java.lang.String market1, java.lang.String market2,
