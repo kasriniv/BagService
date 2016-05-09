@@ -7,12 +7,10 @@ rule "AgencyPickRule"
 	ruleflow-group "findagents"
 	no-loop true
 	when
-		Order( market == "2" )
-		agency : Agency( )
+		order : Order( market == "2" )
 	then
-		modify( agency ) {
-				setName( "ABC Recovery" ), 
-				setRating( 4 )
-		}
 		System.out.println("fired agencypickrule");
+		modify( order ) {
+
+		}
 end
