@@ -13,4 +13,5 @@ rule "AgencyPickRule"
 				setName( "ABC Recovery" ), 
 				setRating( 4 )
 		}
+		System.out.println("fired agencypickrule");
 end
