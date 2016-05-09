@@ -11,6 +11,6 @@ rule "AgencyPickRule"
 	then
 		System.out.println("fired agencypickrule");
 		modify( order ) {
-
+				setAgencyassignedto( "ABC Recovery" )
 		}
 end
