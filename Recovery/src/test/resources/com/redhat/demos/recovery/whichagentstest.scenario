@@ -31,7 +31,7 @@
           <fieldName>name</fieldName>
           <expected>ABC Recovery1</expected>
           <operator>==</operator>
-          <nature>0</nature>
+          <nature>1</nature>
         </expect-field>
       </fieldValues>
       <name>Agency</name>
