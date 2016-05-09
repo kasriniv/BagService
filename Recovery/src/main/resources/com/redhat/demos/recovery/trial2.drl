@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 rule "trial2"
 	dialect "mvel"
-	ruleflow-group "findagents"
+	ruleflow-group "findagents2"
 	when
 		loa : ListofAgencies( )
 		Order( market == "2" )
