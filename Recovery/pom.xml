@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.redhat.demos</groupId>
   <artifactId>Recovery</artifactId>
-  <version>7.5</version>
+  <version>7.6</version>
   <name>Recovery</name>
   <build>
     <plugins>
