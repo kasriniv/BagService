@@ -157,8 +157,8 @@ public class Order implements java.io.Serializable
 
    public String toString()
    {
-      System.out.println("city" + city + "source: " + source + "market" + market + "zip" + zip);
-      return ("city" + city + "source: " + source + "market" + market + "zip" + zip+"agency"+agencyassignedto);
+      System.out.println("city" + city + "source: " + source + "market" + market + "zip" + zip+"ID"+id);
+      return ("city" + city + "source: " + source + "market" + market + "zip" + zip+"agency"+agencyassignedto+"ID"+id);
    }
 
    public java.lang.String getZip()
